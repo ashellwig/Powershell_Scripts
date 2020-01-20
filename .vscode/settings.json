@@ -1,7 +1,21 @@
 {
     "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell",
+        "editor.formatOnSave": true
+    },
+    "powershell.scriptAnalysis.enable": true,
     "powershell.codeFormatting.autoCorrectAliases": true,
     "powershell.codeFormatting.preset": "OTBS",
     "powershell.enableProfileLoading": true,
-    "powershell.powerShellDefaultVersion": "PowerShell Core 6 (x64)"
+    "powershell.powerShellDefaultVersion": "PowerShell Core 6 (x64)",
+    "markdownlint.config": {
+        "MD013": false,
+        "MD033": false
+    },
+    "cSpell.words": [
+        "ashs",
+        "functionsfind",
+        "stringps"
+    ]
 }

@@ -1,43 +1,28 @@
+#requires -version 5
+
 <#
 .Synopsis
-   Downloads the audio from a specified YouTube url.
+   TODO
 .DESCRIPTION
-   Downloads the audio from a specified YouTube url using `youtube-dl`
-   (https://github.com/ytdl-org/youtube-dl). Output is configurable as is
-   the output's format -- assuming it is available.
+   TODO
 .EXAMPLE
     TODO: Example of how to use this cmdlet
 .OUTPUTS
    Audio extracted from YouTube video located at specified source.
 .NOTES
-.VERSION 1.0.1
-.GUID 54688e75-298c-4d4b-a2d0-1234567890ab
-.AUTHOR iRon
-.DESCRIPTION Your description
-.COMPANYNAME
-.COPYRIGHT
-.TAGS PowerShell Version
-.LICENSEURI https://github.com/LICENSE
-.PROJECTURI https://github.com/
-.ICONURI https://Icon.png
-.EXTERNALMODULEDEPENDENCIES
-.REQUIREDSCRIPTS
-.EXTERNALSCRIPTDEPENDENCIES
-.RELEASENOTES
-.Version
-.PRIVATEDATA
-#>
-
-<#PSScriptInfo
-
+    .AUTHOR Ashton Hellwig <ahellwig.dev@gmail.com>
+    .VERSION 0.0.1
+    .COPYRIGHT 2020 Ashton Scott Hellwig <ahellwig.dev@gmail.com>
+    .PROJECTURI https://github.com/ashellwig/Powershell_Scripts.git
+    .LICENSEURI https://github.com/ashellwig/Powershell_Scripts/LICENSE
 #>
 
 function SingleVideo
 {
-    [CmdletBinding(DefaultParameterSetName='Parameter Set 1', 
+    [CmdletBinding(DefaultParameterSetName='Parameter Set Main', 
                   SupportsShouldProcess=$true, 
                   PositionalBinding=$false,
-                  HelpUri = 'http://www.microsoft.com/',
+                  HelpUri = 'https://readthedocs.org/projects/powershell-scripts/',
                   ConfirmImpact='Medium')]
     [Alias()]
     [OutputType([String])]
